@@ -1,0 +1,260 @@
+/*removing all the margin and padding due to browser */
+*{
+  margin:0;
+  padding:0;
+}
+
+/*style for the header */
+.start h1{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  font-family:Freestyle Script;
+  font-size: 90px;
+  animation: headanim 4s ;
+  animation-fill-mode: forwards;
+}
+@keyframes headanim {
+  0%{top:30vh;opacity: 0;}
+  100%{top: 40vh; opacity: 1;}
+}
+.start p{
+  position: absolute;
+  top: 55vh;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  font-family:Freestyle Script;
+  font-size: 40px;
+  animation: paraanim 8s;
+  animation-fill-mode: forwards;
+}
+@keyframes paraanim {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.start .wrapp{
+	width:100%;
+	height:100vh;
+	min-height:600px;
+}
+.start .wrapp .wrapped{
+	width:300%;
+	height:100vh;
+	min-height:600px;
+	position:relative;
+	animation-name:anim;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  transition-timing-function: linear;
+}
+
+@keyframes anim{
+	0%{left:0px;}
+	30%{left:0px;}
+	35%{left:-100%;}
+	65%{left:-100%;}
+	70%{left:-200%;}
+	100%{left:-200%;}
+}
+
+.start .wrapp{
+	overflow:hidden;
+}
+.start .wrapp .wrapped .wrapped1,.wrapped2,.wrapped3{
+	width:calc(100%/3);
+	height:100vh;
+	min-height:600px;
+	float:left;
+}
+.start .wrapp .wrapped .wrapped1{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_183304804.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.start .wrapp .wrapped .wrapped2{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_182905579.jpg");
+	background-size:cover;
+	background-position: center;
+}
+.start .wrapp .wrapped .wrapped3{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_180647663.jpg");
+	background-size:cover;
+	background-position:50% 70%;
+}
+/*end of style for header */
+
+.top-menu{
+  height:80px;
+  width:100%;
+  background-color: rgba(0,0,0,.8);
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+.top-menu ul li{
+  display: inline;
+  float: right;
+  padding: 30px 20px 5px 20px;
+}
+ul li:hover{
+  border-bottom: white 1px solid;
+}
+a{
+  text-decoration:none;
+  color: white;
+}
+
+.intro{
+	height:100vh;
+  height: auto;
+	width:100%;
+	/*background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_180529192.jpg");
+	*/background-color: rgba(0, 0, 0, 0.7);
+  background-size:cover;
+	background-attachment:fixed;
+	background-position: center;
+	color: rgba(255,255,255,1);
+}
+.intro h1{
+	text-align:center;
+  padding: 20px 0 20px 0 ;
+}
+.intro .about{
+  padding: 0 0 20px 0;
+}
+.intro .about .about1{
+	width:80%;
+	height:auto;
+/*  border-left: solid 2px red;*/
+	margin:0 auto;
+}
+.intro .about .about1 p{
+  opacity: 0;
+  position: relative;
+  padding: 20px;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 30px;
+  animation-fill-mode: forwards;
+}
+  .anim{
+  animation: paraanim2 4s ;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+}
+@keyframes paraanim2 {
+  0%{left:50px;opacity: 0;}
+  100%{left:0;opacity: 1;}
+}
+
+/* styling the container */
+.container{
+	width:100%;
+	height:50vh;
+	background-color:black;
+	overflow:hidden;
+	perspective:1000px;
+	}
+
+/* styling platform */
+
+.platform{
+	height:100px;
+	width:100px;
+	position:relative;
+	top:100px;
+	left:100px;
+	transform-style:preserve-3d;
+	animation: anim3 10s infinite linear;
+	}
+.platform:hover{
+	animation-play-state:paused;
+	}
+
+/* giving animation to platform to rotate */
+@keyframes anim3{
+	0%{transform:rotateY(0deg);}
+	100%{transform:rotateY(360deg);}
+}
+
+.platform .face1 , .face2 ,.face3 , .face4 ,.face5 , .face6{
+	width:100px;
+	height:100px;
+	position:absolute;
+	}
+.face1{
+	background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/crocodile%20green.jpg");
+	transform:translateZ(100px);
+	}
+.face2{
+  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/Emerald_Green_Marble_2.jpg");
+	transform:rotateY(60deg) translateZ(100px);
+	}
+.face3{
+  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/forest-green-marble-srf1.jpg");
+	transform:rotateY(120deg) translateZ(100px);
+	}
+.face4{
+  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/imperial%20green.jpg");
+	transform:rotateY(180deg) translateZ(100px);
+	}
+.face5{
+  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/Marble_Majestic_Green.jpg");
+	transform:rotateY(240deg) translateZ(100px);
+	}
+.face6{
+  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/spider-green-marble-500x500.jpg");
+	transform:rotateY(300deg) translateZ(100px);
+	}
+
+  footer{
+    background-color: rgba(255,255,255,.7);
+    color: rgba(0,0,0,.8);
+    height: auto;
+    width: 100%;
+  }
+  footer>h1{
+    color: rgba(0,0,0,.8);
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+  footer>ul>li{
+    float: left;
+    width: calc(100% /4);
+  }
+  footer>ul>a>li{
+    float: left;
+    width: calc(100% /4);
+  }
+  footer>ul{
+    height: 100px;
+    display: block;
+  }
+  footer>ul>*{
+    text-align: center;
+  }
+  ul {
+  list-style-type: none;
+  }
+  footer a{
+    color: rgba(0,0,0,.8);
+  }
+  .rights{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    padding: 20px 0 20px 0;
+    line-height: 25px;
+    margin-top: 20px;
+  }
