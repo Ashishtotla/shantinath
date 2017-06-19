@@ -78,12 +78,12 @@
 	background-position:center;
 }
 .start .wrapp .wrapped .wrapped2{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../images/cover/shantinath-marbles-cover-2.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-2.jpg");
 	background-size:cover;
 	background-position: center;
 }
 .start .wrapp .wrapped .wrapped3{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("../images/cover/shantinath-marbles-cover-3.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-3.jpg");
 	background-size:cover;
 	background-position:50% 70%;
 }
