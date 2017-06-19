@@ -73,7 +73,7 @@
 	float:left;
 }
 .start .wrapp .wrapped .wrapped1{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../images/cover/shantinath-marbles-cover-1.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-1.jpg");
 	background-size:cover;
 	background-position:center;
 }
