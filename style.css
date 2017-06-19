@@ -73,17 +73,17 @@
 	float:left;
 }
 .start .wrapp .wrapped .wrapped1{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_183304804.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../images/cover/shantinath-marbles-cover-1.jpg");
 	background-size:cover;
 	background-position:center;
 }
 .start .wrapp .wrapped .wrapped2{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_182905579.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../images/cover/shantinath-marbles-cover-2.jpg");
 	background-size:cover;
 	background-position: center;
 }
 .start .wrapp .wrapped .wrapped3{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("file:///C:/Users/Ashish/Desktop/new%20marble/front/front/IMG_20170515_180647663.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("../images/cover/shantinath-marbles-cover-3.jpg");
 	background-size:cover;
 	background-position:50% 70%;
 }
