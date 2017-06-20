@@ -192,27 +192,27 @@ a{
 	position:absolute;
 	}
 .face1{
-	background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/crocodile%20green.jpg");
+	background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_1.jpg");
 	transform:translateZ(100px);
 	}
 .face2{
-  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/Emerald_Green_Marble_2.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_2.jpg");
 	transform:rotateY(60deg) translateZ(100px);
 	}
 .face3{
-  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/forest-green-marble-srf1.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_3.jpg");
 	transform:rotateY(120deg) translateZ(100px);
 	}
 .face4{
-  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/imperial%20green.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_4.jpg");
 	transform:rotateY(180deg) translateZ(100px);
 	}
 .face5{
-  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/Marble_Majestic_Green.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_5.jpg");
 	transform:rotateY(240deg) translateZ(100px);
 	}
 .face6{
-  background-image: url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/spider-green-marble-500x500.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_6.jpg");
 	transform:rotateY(300deg) translateZ(100px);
 	}
 
