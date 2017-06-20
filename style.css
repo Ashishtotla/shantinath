@@ -192,27 +192,27 @@ a{
 	position:absolute;
 	}
 .face1{
-	background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_1.jpg");
+	background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_1.jpg");
 	transform:translateZ(100px);
 	}
 .face2{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_2.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_2.jpg");
 	transform:rotateY(60deg) translateZ(100px);
 	}
 .face3{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_3.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_3.jpg");
 	transform:rotateY(120deg) translateZ(100px);
 	}
 .face4{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_4.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_4.jpg");
 	transform:rotateY(180deg) translateZ(100px);
 	}
 .face5{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_5.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_5.jpg");
 	transform:rotateY(240deg) translateZ(100px);
 	}
 .face6{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_6.jpg");
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_6.jpg");
 	transform:rotateY(300deg) translateZ(100px);
 	}
 .face7{
