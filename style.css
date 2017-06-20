@@ -186,7 +186,7 @@ a{
 	100%{transform:rotateY(360deg);}
 }
 
-.platform .face1 , .face2 ,.face3 , .face4 ,.face5 , .face6{
+.platform .face1 , .face2 ,.face3 , .face4 ,.face5 , .face6,.face7 , .face8 ,.face9 , .face10 ,.face11 , .face12{
 	width:100px;
 	height:100px;
 	position:absolute;
@@ -213,6 +213,30 @@ a{
 	}
 .face6{
   background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble_animation_6.jpg");
+	transform:rotateY(300deg) translateZ(100px);
+	}
+.face7{
+	background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-1.jpg");
+	transform:translateZ(100px);
+	}
+.face8{
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-2.jpg");
+	transform:rotateY(60deg) translateZ(100px);
+	}
+.face9{
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-3.jpg");
+	transform:rotateY(120deg) translateZ(100px);
+	}
+.face10{
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-4.jpg");
+	transform:rotateY(180deg) translateZ(100px);
+	}
+.face11{
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-5.jpg");
+	transform:rotateY(240deg) translateZ(100px);
+	}
+.face12{
+  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-6.jpg");
 	transform:rotateY(300deg) translateZ(100px);
 	}
 
