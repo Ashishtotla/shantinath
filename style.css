@@ -282,3 +282,30 @@ a{
     line-height: 25px;
     margin-top: 20px;
   }
+
+    @media screen and (max-width:800px) {
+    footer>ul>li,footer>ul>a>li{
+      width: calc(100% /2);
+      padding-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width:510px){
+    .start h1{
+      font-size: 60px;
+    }
+  }
+
+  @media screen and (max-width:350px)
+  {
+    .start h1{
+      font-size: 40px;
+    }
+    .start p{
+      font-size: 30px;
+      top:50vh;
+    }
+    footer>ul>li,footer>ul>a>li{
+      width: 100%;
+    }
+  }
