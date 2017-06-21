@@ -15,8 +15,14 @@
   font-size: 90px;
   animation: headanim 4s ;
   animation-fill-mode: forwards;
+  -webkit-animation: headanim 4s ;
+  -webkit-animation-fill-mode: forwards;
 }
 @keyframes headanim {
+  0%{top:30vh;opacity: 0;}
+  100%{top: 40vh; opacity: 1;}
+}
+@-webkit-keyframes headanim {
   0%{top:30vh;opacity: 0;}
   100%{top: 40vh; opacity: 1;}
 }
@@ -31,8 +37,14 @@
   font-size: 40px;
   animation: paraanim 8s;
   animation-fill-mode: forwards;
+  -webkit-animation: paraanim 8s;
+  -webkit-animation-fill-mode: forwards;
 }
 @keyframes paraanim {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@-webkit-keyframes paraanim {
   0%{opacity: 0;}
   100%{opacity: 1;}
 }
@@ -51,10 +63,22 @@
 	animation-duration:10s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  -webkit-animation-name:anim;
+	-webkit-animation-duration:10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
   transition-timing-function: linear;
 }
 
 @keyframes anim{
+	0%{left:0px;}
+	30%{left:0px;}
+	35%{left:-100%;}
+	65%{left:-100%;}
+	70%{left:-200%;}
+	100%{left:-200%;}
+}
+@-webkit-keyframes anim{
 	0%{left:0px;}
 	30%{left:0px;}
 	35%{left:-100%;}
@@ -68,6 +92,8 @@
 }
 .start .wrapp .wrapped .wrapped1,.wrapped2,.wrapped3{
 	width:calc(100%/3);
+  -webkit-width:calc(100%/3);
+  -moz-width:calc(100%/3);
 	height:100vh;
 	min-height:600px;
 	float:left;
@@ -145,13 +171,21 @@ a{
   text-align: justify;
   line-height: 30px;
   animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
   .anim{
   animation: paraanim2 4s ;
   animation-iteration-count:1;
   animation-fill-mode: forwards;
+  -webkit-animation: paraanim2 4s ;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode: forwards;
 }
 @keyframes paraanim2 {
+  0%{left:50px;opacity: 0;}
+  100%{left:0;opacity: 1;}
+}
+@-webkit-keyframes paraanim2 {
   0%{left:50px;opacity: 0;}
   100%{left:0;opacity: 1;}
 }
