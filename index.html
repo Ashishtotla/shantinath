@@ -108,12 +108,17 @@
   <script>
     var para1=document.querySelector(".intro");
     var para=document.querySelector(".about1>i>p");
+    var pos;
     console.log(para1);
     console.log(para);
-    para1.addEventListener("mouseover", mouseOver);
+    document.addEventListener("scroll", mouseOver);
     function mouseOver(){
-      para.classList.add("anim");
       console.log(para);
+      pos=window.pageYOffset;
+      console.log(pos);
+      if(pos>300){
+      para.classList.add("anim");console.log(para);
+      }
     }
   </script>
 
