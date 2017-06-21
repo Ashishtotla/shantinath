@@ -73,7 +73,7 @@
 	float:left;
 }
 .start .wrapp .wrapped .wrapped1{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-1.jpg");
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-1.jpg");
 	background-size:cover;
 	background-position:center;
 }
@@ -156,13 +156,33 @@ a{
   100%{left:0;opacity: 1;}
 }
 
+  .products{
+    background-color: black;
+    color: white;
+    height: auto;
+    text-align: center;
+  }
+  .products h1{
+    padding:20px 0 20px 0;
+  }
+
+  .marble-content>ul{
+    padding: 20px 0 0 0;
+    line-height: 5vh;
+    text-decoration: none;
+  }
+  .marble-content>ul>li{
+    border: none;
+  }
+
 /* styling the container */
 .container{
-	width:100%;
+	width:50%;
 	height:50vh;
 	background-color:black;
 	overflow:hidden;
 	perspective:1000px;
+  float: left;
 	}
 
 /* styling platform */
@@ -172,9 +192,9 @@ a{
 	width:100px;
 	position:relative;
 	top:100px;
-	left:100px;
 	transform-style:preserve-3d;
 	animation: anim3 10s infinite linear;
+  margin:0 auto;
 	}
 .platform:hover{
 	animation-play-state:paused;
@@ -240,6 +260,13 @@ a{
 	transform:rotateY(300deg) translateZ(100px);
 	}
 
+  .marble-content{
+    width:50%;
+    height: 50vh;
+    float: left;
+    background-color: black;
+  }
+
   footer{
     background-color: rgba(255,255,255,.7);
     color: rgba(0,0,0,.8);
@@ -283,7 +310,7 @@ a{
     margin-top: 20px;
   }
 
-    @media screen and (max-width:800px) {
+  @media screen and (max-width:800px) {
     footer>ul>li,footer>ul>a>li{
       width: calc(100% /2);
       padding-bottom: 20px;
@@ -293,6 +320,12 @@ a{
   @media screen and (max-width:510px){
     .start h1{
       font-size: 60px;
+    }
+    .container{
+      width: 100%;
+    }
+    .marble-content{
+      width: 100%;
     }
   }
 
