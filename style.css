@@ -11,7 +11,7 @@
   width: 100%;
   z-index: 1;
   color: white;
-  font-family:Freestyle Script;
+  font-family:'Kaushan Script', cursive ,'Freestyle Script',cursive;
   font-size: 90px;
   animation: headanim 4s ;
   animation-fill-mode: forwards;
