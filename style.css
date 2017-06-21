@@ -391,7 +391,9 @@ a{
     .container{
       width: 100%;
     }
-    
+    .start p{
+	bottom:20vh;
+	  }
     .marble-content{
       width: 100%;
     }
@@ -403,9 +405,7 @@ a{
       font-size: 40px;
     }
     .start p{
-      visibility:hidden;
       font-size: 30px;
-      top:50vh;
     }
     footer>ul>li,footer>ul>a>li{
       width: 100%;
