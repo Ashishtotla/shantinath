@@ -27,7 +27,7 @@
   100%{top: 40vh; opacity: 1;}
 }
 .start h1 span{
-	font-size:4opx;
+	font-size:40px;
 }
 @keyframes paraanim {
   0%{opacity: 0;}
@@ -381,7 +381,7 @@ a{
       width: 100%;
     }
     .start h1 span{
-	opacity:0;
+	font-size:35px;
 	  }
     .marble-content{
       width: 100%;
