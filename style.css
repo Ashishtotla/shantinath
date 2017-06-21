@@ -381,7 +381,7 @@ a{
       width: 100%;
     }
     .start h1 span{
-	font-size:40px;
+	opacity:0;
 	  }
     .marble-content{
       width: 100%;
