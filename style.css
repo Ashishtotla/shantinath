@@ -26,19 +26,8 @@
   0%{top:30vh;opacity: 0;}
   100%{top: 40vh; opacity: 1;}
 }
-.start p{
-  position: absolute;
-  top: 55vh;
-  text-align: center;
-  width: 100%;
-  z-index: 1;
-  color: white;
-  font-family:Freestyle Script;
-  font-size: 40px;
-  animation: paraanim 8s;
-  animation-fill-mode: forwards;
-  -webkit-animation: paraanim 8s;
-  -webkit-animation-fill-mode: forwards;
+.start h1 span{
+	font-size:4opx;
 }
 @keyframes paraanim {
   0%{opacity: 0;}
@@ -391,8 +380,8 @@ a{
     .container{
       width: 100%;
     }
-    .start p{
-	bottom:20vh;
+    .start h1 span{
+	font-size:40px;
 	  }
     .marble-content{
       width: 100%;
@@ -404,7 +393,7 @@ a{
     .start h1{
       font-size: 40px;
     }
-    .start p{
+    .start h1 span{
       font-size: 30px;
     }
     footer>ul>li,footer>ul>a>li{
