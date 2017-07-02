@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu{
+  height:80px;
+  width:100%;
+  background-color: rgba(0,0,0,.8);
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+.top-menu ul li{
+  display: inline;
+  float: right;
+  padding: 30px 20px 5px 20px;
+}
+ul li:hover{
+  border-bottom: white 1px solid;
+}
+a{
+  text-decoration:none;
+  color: white;
+}
+
+  header{
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.5),
+                                rgba(0,0,0,.5)),url("file:///C:/Users/Ashish/Desktop/new%20marble/marble/lable/crocodile%20green.jpg");
+    background-attachment: fixed;
+  }
+  header h1{
+    width: 100%;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px green;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+    color: rgba(255,255,255,1);
+  }
+  section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+  }
+  section h1{
+    width: 100%;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  section div{
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  section div div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+  }
+  section div:hover div{
+    outline: 2px white solid;
+    outline-offset: -10px;
+    background-color: rgba(0,0,0,.5);
+    background-image: none;
+  }
+  section div p{
+    position: absolute;
+    top: 40%;
+    padding: 10px 0 10px 0;
+    color: white;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+  section div:hover div p{
+    animation: .2s anim;
+    animation-fill-mode: forwards;
+  }
+  @keyframes anim{
+    0%{top:60%;opacity: 0;}
+    100%{top: 40%;opacity: 1;}
+  }
+
+  .gallery{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,1);
+  }
+  .gallery h1{
+    text-align: center;
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    padding: 20px 0 20px 0;
+  }
+  .container{
+    width: 1px;
+    height: 100vh;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+  }
+  .slide-1{
+
+    position: absolute;
+    transform: translateZ(-100px);
+    top: 30px;
+    left:-300px;
+    height: 200px;
+    width: 200px;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+  .slide-2{
+
+    position: absolute;
+    transform: translateZ(-50px);
+    top: 30px;
+    left: -200px;
+    height: 200px;
+    width: 200px;
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+  .slide-3{
+
+    position: absolute;
+    transform: translateZ(0);
+    top: 30px;
+    left: -100px;
+    height: 200px;
+    width: 200px;
+    transition-duration: 1s;
+  }
+  .slide-4{
+
+    position: absolute;
+    transform: translateZ(-50px);
+    top: 30px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+      transition-duration: 1s;
+      cursor: pointer;
+  }
+  .slide-5{
+
+    position: absolute;
+    transform: translateZ(-100px);
+    top: 30px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+      transition-duration: 1s;
+      cursor: pointer;
+  }
+
+  footer{
+    background-color: rgba(255,255,255,.7);
+    color: rgba(0,0,0,.8);
+    height: auto;
+    width: 100%;
+  }
+  footer>h1{
+    color: rgba(0,0,0,.8);
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+  footer>ul>li{
+    float: left;
+    width: calc(100% /4);
+  }
+  footer>ul>a>li{
+    float: left;
+    width: calc(100% /4);
+  }
+  footer>ul{
+    height: 100px;
+    display: block;
+  }
+  footer>ul>*{
+    text-align: center;
+  }
+  ul {
+  list-style-type: none;
+  }
+  footer a{
+    color: rgba(0,0,0,.8);
+  }
+  .rights{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    padding: 20px 0 20px 0;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width:800px) {
+    footer>ul>li,footer>ul>a>li{
+      width: calc(100% /2);
+      padding-bottom: 20px;
+    }
+  }
+
+
+
+  @media screen and (max-width:350px)
+  {
+    footer>ul>li,footer>ul>a>li{
+      width: 100%;
+    }
+  }
