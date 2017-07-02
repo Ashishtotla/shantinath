@@ -85,11 +85,23 @@ a{
     text-align: center;
     border-radius: 0 0 10px 10px;
   }
-  section div:hover div p{
+    section div:hover div p{
     animation: .2s anim;
     animation-fill-mode: forwards;
+    -webkit-animation: .2s anim;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: .2s anim;
+    -moz-animation-fill-mode: forwards;
   }
   @keyframes anim{
+    0%{top:60%;opacity: 0;}
+    100%{top: 40%;opacity: 1;}
+  }
+  @-webkit-keyframes anim{
+    0%{top:60%;opacity: 0;}
+    100%{top: 40%;opacity: 1;}
+  }
+  @-moz-keyframes anim{
     0%{top:60%;opacity: 0;}
     100%{top: 40%;opacity: 1;}
   }
