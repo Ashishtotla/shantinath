@@ -44,16 +44,16 @@
 	min-height:600px;
 }
 .start .wrapp .wrapped{
-	width:300%;
+	width:800%;
 	height:100vh;
 	min-height:600px;
 	position:relative;
 	animation-name:anim;
-	animation-duration:10s;
+	animation-duration:30s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   -webkit-animation-name:anim;
-	-webkit-animation-duration:10s;
+	-webkit-animation-duration:30s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
   transition-timing-function: linear;
@@ -64,47 +64,93 @@
 
 @keyframes anim{
 	0%{left:0px;}
-	30%{left:0px;}
-	35%{left:-100%;}
-	65%{left:-100%;}
-	70%{left:-200%;}
-	100%{left:-200%;}
-}
+	10%{left:0px;}
+	13%{left:-100%;}
+	23%{left:-100%;}
+	26%{left:-200%;}
+	36%{left:-200%;}
+        39%{left: -300%;}
+        49%{left: -300%;}
+        52%{left: -400%;}
+        62%{left: -400%;}
+        65%{left: -500%;}
+        75%{left: -500%;}
+        78%{left: -600%;}
+        88%{left: -600%;}
+        90%{left: -700%;}
+       100%{left: -700%;}
+  }
 @-webkit-keyframes anim{
 	0%{left:0px;}
-	30%{left:0px;}
-	35%{left:-100%;}
-	65%{left:-100%;}
-	70%{left:-200%;}
-	100%{left:-200%;}
+	10%{left:0px;}
+	13%{left:-100%;}
+	23%{left:-100%;}
+	26%{left:-200%;}
+	36%{left:-200%;}
+        39%{left: -300%;}
+        49%{left: -300%;}
+        52%{left: -400%;}
+        62%{left: -400%;}
+        65%{left: -500%;}
+        75%{left: -500%;}
+        78%{left: -600%;}
+        88%{left: -600%;}
+        90%{left: -700%;}
+       100%{left: -700%;}
 }
 
 .start .wrapp{
 	overflow:hidden;
 }
-.start .wrapp .wrapped .wrapped1,.wrapped2,.wrapped3{
-	width:calc(100%/3);
-  -webkit-width:calc(100%/3);
-  -moz-width:calc(100%/3);
+.start .wrapp .wrapped .wrapped1,.wrapped2,.wrapped3,.wrapped4,.wrapped5,.wrapped6,.wrapped7,.wrapped8{
+	width:calc(100%/8);
+  -webkit-width:calc(100%/8);
+  -moz-width:calc(100%/8);
 	height:100vh;
 	min-height:600px;
 	float:left;
 }
 .start .wrapp .wrapped .wrapped1{
-	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-1.jpg");
-	background-size:cover;
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-9.jpg");
+	background-size:auto;
 	background-position:center;
 }
 .start .wrapp .wrapped .wrapped2{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-2.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-10.jpg");
 	background-size:cover;
-	background-position: center;
+	background-position: 40% 50%;
 }
 .start .wrapp .wrapped .wrapped3{
-	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/cover-images/shantinath-marble-cover-3.jpg");
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-11.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.start .wrapp .wrapped .wrapped4{
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-4.jpg");
+	background-size:cover;
+	background-position:center;
+}
+.start .wrapp .wrapped .wrapped5{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-5.jpg");
+	background-size:cover;
+	background-position: 40% 50%;
+}
+.start .wrapp .wrapped .wrapped6{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.4)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-6.jpg");
 	background-size:cover;
 	background-position:50% 70%;
 }
+.start .wrapp .wrapped .wrapped7{
+	background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-7.jpg");
+	background-size:cover;
+	background-position:40% 70%;
+}
+.start .wrapp .wrapped .wrapped8{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://shantinathmarble.000webhostapp.com/images/cover-image/shantinath-marble-cover-8.jpg");
+	background-size:cover;
+	background-position: center;
+}
+
 /*end of style for header */
 
 .top-menu{
@@ -185,13 +231,16 @@ a{
   .products{
     background-color: black;
     color: white;
-    height: auto;
+    height: 100vh;
     text-align: center;
   }
   .products h1{
     padding:20px 0 20px 0;
   }
-
+  .products h2{
+   font-family:'Freestyle Script',cursive;
+   font-size:40px;
+   }
   .marble-content>ul{
     padding: 20px 0 0 0;
     line-height: 5vh;
@@ -244,73 +293,73 @@ a{
 	position:absolute;
 	}
 .face1{
-	background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_1.jpg");
+	background-image: url("https://shantinathmarble.000webhostapp.com/images/marble-animation/marble-animation_1.jpg");
 	transform:translateZ(100px);
   -webkit-transform:translateZ(100px);
   -moz-transform:translateZ(100px);
 	}
 .face2{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_2.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/marble-animation/marble-animation_2.jpg");
 	transform:rotateY(60deg) translateZ(100px);
   -webkit-transform:rotateY(60deg) translateZ(100px);
   -moz-transform:rotateY(60deg) translateZ(100px);
 	}
 .face3{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_3.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/marble-animation/marble-animation_3.jpg");
 	transform:rotateY(120deg) translateZ(100px);
   -webkit-transform:rotateY(120deg) translateZ(100px);
   -moz-transform:rotateY(120deg) translateZ(100px);
 	}
 .face4{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_4.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/marble-animation/marble-animation_4.jpg");
 	transform:rotateY(180deg) translateZ(100px);
   -webkit-transform:rotateY(180deg) translateZ(100px);
   -moz-transform:rotateY(180deg) translateZ(100px);
 	}
 .face5{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_5.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/marble-animation/marble-animation_5.jpg");
 	transform:rotateY(240deg) translateZ(100px);
   -webkit-transform:rotateY(240deg) translateZ(100px);
   -moz-transform:rotateY(240deg) translateZ(100px);
 	}
 .face6{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/marble-animation/marble-animation_6.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/marble-animation/marble-animation_6.jpg");
 	transform:rotateY(300deg) translateZ(100px);
   -webkit-transform:rotateY(300deg) translateZ(100px);
   -moz-transform:rotateY(300deg) translateZ(100px);
 	}
 .face7{
-	background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-1.jpg");
+	background-image: url("https://shantinathmarble.000webhostapp.com/images/granite-animation/granite-animation-1.jpg");
   transform:translateZ(100px);
   -webkit-transform:translateZ(100px);
   -moz-transform:translateZ(100px);
 	}
 .face8{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-2.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/granite-animation/granite-animation-2.jpg");
   transform:rotateY(60deg) translateZ(100px);
   -webkit-transform:rotateY(60deg) translateZ(100px);
   -moz-transform:rotateY(60deg) translateZ(100px);
 	}
 .face9{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-3.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/granite-animation/granite-animation-3.jpg");
   transform:rotateY(120deg) translateZ(100px);
   -webkit-transform:rotateY(120deg) translateZ(100px);
   -moz-transform:rotateY(120deg) translateZ(100px);
 	}
 .face10{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-4.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/granite-animation/granite-animation-4.jpg");
   transform:rotateY(180deg) translateZ(100px);
   -webkit-transform:rotateY(180deg) translateZ(100px);
   -moz-transform:rotateY(180deg) translateZ(100px);
 	}
 .face11{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-5.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/granite-animation/granite-animation-5.jpg");
   transform:rotateY(240deg) translateZ(100px);
   -webkit-transform:rotateY(240deg) translateZ(100px);
   -moz-transform:rotateY(240deg) translateZ(100px);
 	}
 .face12{
-  background-image: url("https://raw.githubusercontent.com/Ashishtotla/shantinath/master/images/granite-animation/granite-animation-6.jpg");
+  background-image: url("https://shantinathmarble.000webhostapp.com/images/granite-animation/granite-animation-6.jpg");
   transform:rotateY(300deg) translateZ(100px);
   -webkit-transform:rotateY(300deg) translateZ(100px);
   -moz-transform:rotateY(300deg) translateZ(100px);
@@ -337,10 +386,8 @@ a{
   footer>ul>li{
     float: left;
     width: calc(100% /4);
-  }
-  footer>ul>a>li{
-    float: left;
-    width: calc(100% /4);
+    height: 200px;
+    line-height: 35px;
   }
   footer>ul{
     height: 100px;
@@ -366,10 +413,12 @@ a{
     margin-top: 20px;
   }
 
-  @media screen and (max-width:800px) {
-    footer>ul>li,footer>ul>a>li{
+  @media screen and (max-width:1000px) {
+    footer>ul>li,footer>ul>a{
       width: calc(100% /2);
       padding-bottom: 20px;
+      float: left;
+      height: 200px;
     }
   }
 
@@ -383,9 +432,93 @@ a{
     .start h1 span{
 	font-size:35px;
 	  }
+    .start .wrapp .wrapped .wrapped1{
+	background-size:cover;
+	background-position:center;
+}
     .marble-content{
       width: 100%;
     }
+    .products{
+      background-color: black;
+      color: white;
+      height: 200vh;
+      text-align: center;
+    }
+       .platform .face1 , .face2 ,.face3 , .face4 ,.face5 , .face6,.face7 , .face8 ,.face9 , .face10 ,.face11 , .face12{
+    	width:150px;
+    	height:150px;
+    	}
+      .face1{
+      	transform:translateZ(180px);
+        -webkit-transform:translateZ(180px);
+        -moz-transform:translateZ(180px);
+      	}
+      .face2{
+      	transform:rotateY(60deg) translateZ(180px);
+        -webkit-transform:rotateY(60deg) translateZ(180px);
+        -moz-transform:rotateY(60deg) translateZ(180px);
+      	}
+      .face3{
+      	transform:rotateY(120deg) translateZ(180px);
+        -webkit-transform:rotateY(120deg) translateZ(180px);
+        -moz-transform:rotateY(120deg) translateZ(180px);
+      	}
+      .face4{
+      	transform:rotateY(180deg) translateZ(180px);
+        -webkit-transform:rotateY(180deg) translateZ(180px);
+        -moz-transform:rotateY(180deg) translateZ(180px);
+      	}
+      .face5{
+      	transform:rotateY(240deg) translateZ(180px);
+        -webkit-transform:rotateY(240deg) translateZ(180px);
+        -moz-transform:rotateY(240deg) translateZ(180px);
+      	}
+      .face6{
+      	transform:rotateY(300deg) translateZ(180px);
+        -webkit-transform:rotateY(300deg) translateZ(180px);
+        -moz-transform:rotateY(300deg) translateZ(180px);
+      	}
+      .face7{
+          transform:translateZ(180px);
+          -webkit-transform:translateZ(180px);
+          -moz-transform:translateZ(180px);
+        	}
+        .face8{
+          transform:rotateY(60deg) translateZ(180px);
+          -webkit-transform:rotateY(60deg) translateZ(180px);
+          -moz-transform:rotateY(60deg) translateZ(180px);
+        	}
+        .face9{
+          transform:rotateY(120deg) translateZ(180px);
+          -webkit-transform:rotateY(120deg) translateZ(180px);
+          -moz-transform:rotateY(120deg) translateZ(180px);
+        	}
+        .face10{
+          transform:rotateY(180deg) translateZ(180px);
+          -webkit-transform:rotateY(180deg) translateZ(180px);
+          -moz-transform:rotateY(180deg) translateZ(180px);
+        	}
+        .face11{
+          transform:rotateY(240deg) translateZ(180px);
+          -webkit-transform:rotateY(240deg) translateZ(180px);
+          -moz-transform:rotateY(240deg) translateZ(180px);
+        	}
+        .face12{
+          transform:rotateY(300deg) translateZ(180px);
+          -webkit-transform:rotateY(300deg) translateZ(180px);
+          -moz-transform:rotateY(300deg) translateZ(180px);
+        	}
+        footer>ul>li{
+            width:100%;
+            padding-bottom: 20px;
+            float: left;
+            height: 200px;
+            line-height:40px;
+          }
+          .email , .facebook{
+            height: 130px;
+          }
   }
 
   @media screen and (max-width:350px)
